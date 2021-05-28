@@ -1,0 +1,24 @@
+{
+  "name": "bmi-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha test/bmi.spec.js --timeout 10000 --reporter spec"
+  },
+  "author": "Jignesh Patel",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "jade": "^1.11.0",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  }
+}
